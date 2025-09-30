@@ -1,0 +1,45 @@
+# Reusable block of code that performs a certain action or task
+def greet_user(name):
+    print(f"Hello, {name}")
+
+
+#Strings, variables, loops, functions, string formating
+
+anything = "string"
+
+print(anything)
+
+anything1 = 'string'
+
+age = 102
+
+is_teacher = True
+
+#Loops, While loops, functions, formated strings
+
+#iterate through a list - FOR loop
+fruits = ["apple", "banana", "cherry"]
+for fruits in fruits:
+    print(fruits)
+
+# while loop - a certain action untill that action is met
+num = 1
+while num <= 5:
+    print(num)
+    num += 1
+
+
+# Call the function 
+name = "dillon"
+greet_user(name)
+
+
+
+#Python 2 vs python 3 formation
+age = 102
+name = "dillon"
+
+
+print(f"My name is {name} and i am {age} years old.")
+
+
