@@ -1,0 +1,2 @@
+#Conditional and a loop assignment
+question = input("Is today a good day")
